@@ -1,0 +1,32 @@
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0A1128"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+<path d="M32 0 H0 V32" fill="none" stroke="#2A3050" stroke-width="1"/>
+</pattern>
+</defs>
+<rect width="640" height="480" fill="url(#bg)"/>
+<rect width="640" height="480" fill="url(#grid)"/>
+<!-- crop marks (blueprint corner brackets) -->
+<g stroke="#C5A059" stroke-width="2" fill="none">
+<path d="M18 40 V18 H40"/>
+<path d="M600 18 H622 V40"/>
+<path d="M18 440 V462 H40"/>
+<path d="M600 462 H622 V440"/>
+</g>
+
+<g transform="translate(120,110)">
+<rect x="0" y="180" width="40" height="80" fill="#C5A059" opacity="0.5"/>
+<rect x="56" y="120" width="40" height="140" fill="#C5A059" opacity="0.7"/>
+<rect x="112" y="40" width="40" height="220" fill="#D4AF37"/>
+<rect x="168" y="150" width="40" height="110" fill="#C5A059" opacity="0.4"/>
+<rect x="224" y="90" width="40" height="170" fill="#C5A059" opacity="0.8"/>
+<line x1="-14" y1="260" x2="290" y2="260" stroke="#EAEAEE" stroke-width="1.5" opacity="0.6"/>
+<path d="M0 220 L56 160 L112 20 L168 180 L224 110" stroke="#EAEAEE" stroke-width="1.5" fill="none" stroke-dasharray="2 6" opacity="0.55"/>
+</g>
+<text x="60" y="420" font-family="monospace" font-size="13" letter-spacing="1" fill="#C5A059">FOLHA 01 — ESTOQUE.SYS</text>
+
+</svg>

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0A1128"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+<path d="M32 0 H0 V32" fill="none" stroke="#2A3050" stroke-width="1"/>
+</pattern>
+</defs>
+<rect width="640" height="480" fill="url(#bg)"/>
+<rect width="640" height="480" fill="url(#grid)"/>
+<!-- crop marks (blueprint corner brackets) -->
+<g stroke="#C5A059" stroke-width="2" fill="none">
+<path d="M18 40 V18 H40"/>
+<path d="M600 18 H622 V40"/>
+<path d="M18 440 V462 H40"/>
+<path d="M600 462 H622 V440"/>
+</g>
+
+<g transform="translate(220,70)" fill="none" stroke="#C5A059" stroke-width="2.4">
+<path d="M100 0 L190 30 V140 C190 200 150 240 100 260 C50 240 10 200 10 140 V30 Z" fill="#000000"/>
+<rect x="76" y="100" width="48" height="48" stroke="#D4AF37"/>
+<line x1="100" y1="148" x2="100" y2="195" stroke="#D4AF37"/>
+<line x1="100" y1="168" x2="128" y2="168" stroke="#D4AF37"/>
+<line x1="100" y1="182" x2="118" y2="182" stroke="#D4AF37"/>
+</g>
+<text x="60" y="420" font-family="monospace" font-size="13" letter-spacing="1" fill="#C5A059">FOLHA 04 — RBAC.API</text>
+
+</svg>
