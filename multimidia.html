@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimídia — Ricardo Nelber</title>
+  <meta name="description" content="Galeria multimídia de projetos desenvolvidos por Ricardo Nelber.">
+  <link rel="icon" href="imagem/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="pagina-interna">
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="index.html" class="logo" aria-label="Ricardo Nelber — início"><span class="logo__mark">RN</span><span class="logo__dot">.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav"><span class="nav-toggle__box"><span></span><span></span></span><span class="sr-only">Abrir menu</span></button>
+    <nav id="primaryNav" class="primary-nav" aria-label="Navegação principal">
+      <ul>
+        <li><a href="index.html"><span class="nav-index">01</span>Início</a></li>
+        <li><a href="curriculo.html"><span class="nav-index">02</span>Currículo</a></li>
+        <li><a href="formulario.html"><span class="nav-index">03</span>Formulário</a></li>
+        <li><a href="multimidia.html" aria-current="page"><span class="nav-index">04</span>Multimídia</a></li>
+        <li><a href="graficos.html"><span class="nav-index">05</span>Gráficos</a></li>
+      </ul>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">Tema</button>
+    </nav>
+  </div>
+</header>
+<main id="conteudo">
+  <section class="page-hero">
+    <p class="eyebrow">// projetos em imagem</p>
+    <h1>Multimídia</h1>
+    <p>Uma seleção visual de interfaces publicadas, protótipos e experimentos de desenvolvimento web.</p>
+  </section>
+  <section class="media-grid" aria-label="Galeria de projetos">
+    <figure class="media-card"><img src="imagem/Inicio-adv.png" alt="Página inicial de um site para advocacia" width="640" height="480" loading="lazy"><figcaption><strong>Advocacia</strong><span>Interface institucional responsiva</span></figcaption></figure>
+    <figure class="media-card"><img src="imagem/inicio-ps.png" alt="Página inicial de um site para psicologia" width="640" height="480" loading="lazy"><figcaption><strong>Psicologia</strong><span>Comunicação acessível de serviços</span></figcaption></figure>
+    <figure class="media-card"><img src="imagem/site-3d.png" alt="Visualização de um projeto web com gráficos 3D" width="640" height="480" loading="lazy"><figcaption><strong>Experiência 3D</strong><span>Interação e visualização web</span></figcaption></figure>
+    <figure class="media-card"><img src="imagem/port-fem.png" alt="Página inicial de um portfólio feminino" width="640" height="480" loading="lazy"><figcaption><strong>Portfólio feminino</strong><span>Identidade e apresentação profissional</span></figcaption></figure>
+  </section>
+  <section class="media-note"><p class="eyebrow">Acessibilidade</p><h2>Conteúdo que também funciona sem animação</h2><p>As imagens possuem textos alternativos, dimensões declaradas e carregamento otimizado. O layout respeita a preferência do usuário por movimento reduzido.</p></section>
+</main>
+<footer class="site-footer"><p>&copy; <span id="year">2026</span> Ricardo Nelber — Portfólio acadêmico CP3.</p></footer>
+<script src="js/scripts.js"></script>
+</body>
+</html>
