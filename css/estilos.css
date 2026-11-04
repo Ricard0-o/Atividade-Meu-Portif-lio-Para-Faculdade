@@ -941,3 +941,15 @@ body[data-theme="claro"] .site-header { background: rgba(243, 240, 232, 0.92); }
 @media (max-width: 520px) {
   .bar-chart > div { grid-template-columns: 76px 1fr 42px; gap: 0.45rem; }
 }
+
+/* CP4: foco consistente, contraste no tema claro e quebra de conteúdo. */
+:focus-visible { outline: 3px solid var(--gold-bright); outline-offset: 4px; }
+body[data-theme="claro"] .field-error { color: #a11924; }
+body[data-theme="claro"] .btn--primary:hover,
+body[data-theme="claro"] .btn--primary:focus-visible { color: #ffffff; }
+body[data-theme="claro"] .portrait-frame__tag { color: #ffffff; }
+.contato__link-value { overflow-wrap: anywhere; min-width: 0; }
+.project-card__links { flex-wrap: wrap; }
+@media (max-width: 520px) {
+  .contato__link { flex-direction: column; gap: .35rem; }
+}

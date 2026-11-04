@@ -1,0 +1,10 @@
+Site Pessoal / Portfólio — CP4 — Ricardo Nelber
+
+Site publicado: https://ricard0-o.github.io/Atividade-Meu-Portif-lio-Para-Faculdade/
+Versão final (tag cp4-entrega): https://github.com/Ricard0-o/Atividade-Meu-Portif-lio-Para-Faculdade/tree/cp4-entrega
+
+Vídeo obrigatório: PENDENTE — inserir o link real após gravar e conferir o acesso.
+
+O portfólio possui cinco páginas integradas, utilitários Bootstrap no cabeçalho, tema persistente e formulário com validação e rascunho em localStorage. A consolidação inclui textos alternativos, foco visível, menu com Escape e ajustes de contraste. O formulário é uma demonstração local sem envio externo.
+
+Não enviar enquanto o vídeo estiver pendente. Conferir os três links em janela anônima antes do envio final.

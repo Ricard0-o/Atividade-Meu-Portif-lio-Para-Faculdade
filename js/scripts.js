@@ -60,6 +60,15 @@
         : "Abrir menu";
     });
 
+    primaryNav.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && primaryNav.classList.contains("is-open")) {
+        primaryNav.classList.remove("is-open");
+        navToggle.setAttribute("aria-expanded", "false");
+        navToggle.querySelector(".sr-only").textContent = "Abrir menu";
+        navToggle.focus();
+      }
+    });
+
     primaryNav.querySelectorAll("a").forEach((link) => {
       link.addEventListener("click", () => {
         primaryNav.classList.remove("is-open");
@@ -126,6 +135,8 @@
     const fields = Array.from(contactForm.querySelectorAll("input, select, textarea"));
 
     const fieldMessage = (field) => {
+      if (field.required && !field.value.trim()) return "Este campo é obrigatório.";
+      if (field.minLength > 0 && field.value.trim().length < field.minLength && field.value.length) return `Digite pelo menos ${field.minLength} caracteres.`;
       if (field.validity.valueMissing) return "Este campo é obrigatório.";
       if (field.validity.typeMismatch) return "Informe um endereço de e-mail válido.";
       if (field.validity.tooShort) return `Digite pelo menos ${field.minLength} caracteres.`;

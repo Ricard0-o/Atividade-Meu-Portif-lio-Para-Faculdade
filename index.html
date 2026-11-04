@@ -15,7 +15,8 @@
 <meta property="og:locale" content="pt_BR">
 
 <link rel="icon" href="imagem/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="css/estilos.css">
+<link rel="stylesheet" href="css/vendor/bootstrap-utilities.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 
@@ -41,7 +42,7 @@
 </nav>
 
 <header class="site-header">
-  <div class="site-header__inner">
+  <div class="site-header__inner d-flex align-items-center justify-content-between">
     <a href="index.html" class="logo" aria-label="Ricardo Nelber — início">
       <span class="logo__mark">RN</span><span class="logo__dot">.</span>
     </a>
@@ -80,7 +81,7 @@
         <p class="eyebrow">// status: disponível para novos contratos</p>
         <h1 class="hero__title">
           Ricardo Nelber<br>
-          <span class="hero__title-accent">Progamador web</span><br>
+          <span class="hero__title-accent">Programador web</span><br>
           de Alto Impacto
         </h1>
         <p class="hero__lede">
@@ -147,7 +148,7 @@
       <li class="project-card" data-stagger="right">
         <div class="project-card__media">
           <img src="imagem/Inicio-adv.png" width="640" height="480" loading="lazy"
-            alt="Ilustração técnica estilo blueprint de um gráfico de barras dourado representando níveis de estoque, com marcações de precisão nos cantos.">
+            alt="Captura da página inicial do site de advocacia Nascimento.">
         </div>
         <div class="project-card__body">
           <p class="eyebrow eyebrow--small">Projeto 01 · web &amp; visibilidade</p>
@@ -155,16 +156,17 @@
           <p class="project-card__attack">
             <span class="project-card__attack-label">Ataque ao problema —</span>
             O Advogado precisava de uma interface web para mostrar seus serviços e atrair clientes, aumentando seu profissionalismo.
+          </p>
           <ul class="badge-list" aria-label="Tecnologias utilizadas">
             <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
           </ul>
           <div class="project-card__links">
             <!-- SUBSTITUIR pelos links reais -->
-            <a target="_blank" href="https://github.com/Ricard0-o/Site-One-Page-Adv-Nascimento">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Ricard0-o/Site-One-Page-Adv-Nascimento">
               <span>Código-fonte</span>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
-            <a target="_blank" href="https://advnascimento.netlify.app/">
+            <a target="_blank" rel="noopener noreferrer" href="https://advnascimento.netlify.app/">
               <span>Ver em produção</span>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
@@ -175,7 +177,7 @@
       <li class="project-card" data-stagger="left">
         <div class="project-card__media">
           <img src="imagem/inicio-ps.png" width="640" height="480" loading="lazy"
-            alt="Ilustração técnica estilo blueprint de três painéis retangulares conectados representando o fluxo de um chamado de suporte até a resolução.">
+            alt="Captura da página de apresentação do psicólogo Kaique Lima.">
         </div>
         <div class="project-card__body">
           <p class="eyebrow eyebrow--small">Projeto 02 · Web &amp; Consciência</p>
@@ -188,11 +190,11 @@
             <li>JavaScript</li><li>HTML5</li><li>CSS3</li>
           </ul>
           <div class="project-card__links">
-            <a target="_blank" href="https://github.com/Ricard0-o/Site-One-Page-Pisico-kaique">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Ricard0-o/Site-One-Page-Pisico-kaique">
               <span>Código-fonte</span>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
-            <a target="_blank" href="https://kaiquelimapsico.netlify.app/">
+            <a target="_blank" rel="noopener noreferrer" href="https://kaiquelimapsico.netlify.app/">
               <span>Ver em produção</span>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
@@ -203,7 +205,7 @@
       <li class="project-card" data-stagger="right">
         <div class="project-card__media">
           <img src="imagem/site-3d.png" width="640" height="480" loading="lazy"
-            alt="Ilustração técnica estilo blueprint de uma rede neural angular em dourado, representando um modelo de classificação de sentimento.">
+            alt="Captura do projeto web de objetos e gráficos 3D.">
         </div>
         <div class="project-card__body">
           <p class="eyebrow eyebrow--small">Projeto 03 · Projeto UX, 3D</p>
@@ -216,7 +218,7 @@
             <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
           </ul>
           <div class="project-card__links">
-            <a target="_blank" href="https://github.com/Ricard0-o/Objeto-3D-WEB">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Ricard0-o/Objeto-3D-WEB">
               <span>Código-fonte</span>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
@@ -231,7 +233,7 @@
       <li class="project-card" data-stagger="left">
         <div class="project-card__media">
           <img src="imagem/port-fem.png" width="640" height="480" loading="lazy"
-            alt="Ilustração técnica estilo blueprint de um escudo angular dourado com uma chave, representando um sistema de autenticação e permissões.">
+            alt="Captura do projeto de portfólio feminino.">
         </div>
         <div class="project-card__body">
           <p class="eyebrow eyebrow--small">Projeto 04 · Portifólio &amp; Feminino</p>
@@ -244,11 +246,11 @@
             <li>HTML5</li><li>CSS</li><li>JavaScript</li>
           </ul>
           <div class="project-card__links">
-            <a target="_blank" href="https://github.com/Ricard0-o/Portif-lio-Fiminino/">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Ricard0-o/Portif-lio-Fiminino/">
               <span>Código-fonte</span>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
-            <a target="_blank" href="https://portifolio-feminino.netlify.app/">
+            <a target="_blank" rel="noopener noreferrer" href="https://portifolio-feminino.netlify.app/">
               <span>Ver em produção</span>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
@@ -318,7 +320,7 @@
 </main>
 
 <footer class="site-footer">
-  <p>&copy; <span id="year">2026</span> Ricardo Nelber — Programação Web sem emrrolação. Construído com HTML, CSS e JavaScript, sem frameworks.</p>
+  <p>&copy; <span id="year">2026</span> Ricardo Nelber — Programação Web sem enrolação. Construído com HTML, CSS e JavaScript, com utilitários Bootstrap.</p>
 </footer>
 
 <script src="js/scripts.js"></script>

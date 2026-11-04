@@ -6,12 +6,13 @@
   <title>Formulário — Ricardo Nelber</title>
   <meta name="description" content="Formulário de contato com validação e rascunho persistente no navegador.">
   <link rel="icon" href="imagem/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/vendor/bootstrap-utilities.min.css">
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body class="pagina-interna">
 <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 <header class="site-header">
-  <div class="site-header__inner">
+  <div class="site-header__inner d-flex align-items-center justify-content-between">
     <a href="index.html" class="logo" aria-label="Ricardo Nelber — início"><span class="logo__mark">RN</span><span class="logo__dot">.</span></a>
     <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav"><span class="nav-toggle__box"><span></span><span></span></span><span class="sr-only">Abrir menu</span></button>
     <nav id="primaryNav" class="primary-nav" aria-label="Navegação principal">
@@ -58,7 +59,7 @@
         <textarea id="mensagem" name="mensagem" rows="6" minlength="10" required aria-describedby="erro-mensagem"></textarea>
         <small class="field-error" id="erro-mensagem"></small>
       </div>
-      <div class="form-actions">
+      <div class="form-actions d-flex flex-wrap gap-3">
         <button class="btn btn--primary" type="submit"><span class="btn__fill" aria-hidden="true"></span><span class="btn__label">Validar mensagem</span></button>
         <button class="btn btn--outline" type="button" id="clearDraft"><span class="btn__fill" aria-hidden="true"></span><span class="btn__label">Limpar rascunho</span></button>
       </div>
@@ -66,7 +67,7 @@
     </form>
   </section>
 </main>
-<footer class="site-footer"><p>&copy; <span id="year">2026</span> Ricardo Nelber — Portfólio acadêmico CP3.</p></footer>
+<footer class="site-footer"><p>&copy; <span id="year">2026</span> Ricardo Nelber — Portfólio acadêmico CP4.</p></footer>
 <script src="js/scripts.js"></script>
 </body>
 </html>
