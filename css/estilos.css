@@ -953,3 +953,7 @@ body[data-theme="claro"] .portrait-frame__tag { color: #ffffff; }
 @media (max-width: 520px) {
   .contato__link { flex-direction: column; gap: .35rem; }
 }
+
+/* Impede que o tamanho intrinseco do titulo amplie a grade no celular. */
+.hero__grid > * { min-width: 0; }
+.hero__title { overflow-wrap: anywhere; }
