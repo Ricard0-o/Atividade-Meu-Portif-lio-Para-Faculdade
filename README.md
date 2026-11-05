@@ -28,7 +28,6 @@ Site: https://ricard0-o.github.io/Atividade-Meu-Portif-lio-Para-Faculdade/
 Consolidação com Bootstrap Utilities 5.3.3 local (d-flex, align-items-center, justify-content-between, flex-wrap, gap-3), revisão de acessibilidade e validação.
 
 - [Requisitos e plano](docs/PLANO_CP4.md)
-- [Prompt de estudo e roteiro do vídeo](docs/ROTEIRO_VIDEO_CP4.md)
 - [Resposta para entrega](docs/RESPOSTA_CP4.txt)
 
 O vídeo pessoal obrigatório ainda deve ser gravado e anexado por Ricardo. Não há envio final no Blackboard nesta etapa.
